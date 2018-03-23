@@ -25,6 +25,22 @@
   padding-bottom: 400px;
   padding-left: 400px;
 }
-cuerpo.test{
+#cuerpo{
+  position:relative;
   
+}
+#cerroÑielol{
+  position: relative;
+}
+.laMagiaDelSur{
+  position: absolute;
+  right: 300px;
+}
+#cerroÑielol > p{
+position: absolute;
+color: black;
+text-shadow: 2px 2px white;
+left: 600px;
+top: 300px;
+
 }
