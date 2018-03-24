@@ -1,46 +1,57 @@
 #header{
+  float:left;
+  background-color: darkcyan;
+  padding-top: 1%;
+  padding-left: 25%;
+  padding-bottom: 1%;
+  padding-right: 34.8%;
   
-  color: white;
-  text-shadow: 2px 2px darkblue;
-  background-image: url('../images/header.png');
-  background-repeat: no-repeat;
-  background-position: 320px 30px;
-  
-  
-  padding-top: 70px;
-  padding-right: 50px;
-  padding-bottom: 400px;
-  padding-left: 450px;
-  margin-bottom: 100px; 
 }
-#titulo{
-  background-image: url('../images/lagoBudi.png');
-  background-repeat: no-repeat;
-  background-position: 320px 30px;
-  
+#nav{
+  float: left;
+  clear: both;
+  padding-right:74.2%;
+  background-color: darkslategrey; 
+}
+#nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+#nav li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+#nav li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+#nav li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+#cuerpo img.volcanLlaima{
 
+height: 100%;
+width: 100%;
 
-  padding-top: 200px;
-  padding-right: 50px;
-  padding-bottom: 400px;
-  padding-left: 400px;
 }
-#cuerpo{
-  position:relative;
-  
-}
-#cerroÑielol{
-  position: relative;
-}
-.laMagiaDelSur{
+#cuerpo p.parrafo{
   position: absolute;
-  right: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 20%;
+  top: 60%;
+  font-weight: 700;
+  font-size: 2vw;
+  
 }
-#cerroÑielol > p{
-position: absolute;
-color: black;
-text-shadow: 2px 2px white;
-left: 600px;
-top: 300px;
-
+#footer{
+  padding-left: 43%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: black;
+  color: white;
 }

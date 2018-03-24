@@ -1,0 +1,24 @@
+img.imagen{
+    width: 660px; 
+    height: 640px;
+    
+}
+table#galeria{
+    
+    border: solid;
+    background-color:darkslategray;
+}
+#header{
+padding-right: 70%;
+padding-left: 3%;
+padding-top: 1%;
+padding-bottom: 1%;
+background-color:darkcyan;
+}
+#footer{
+    padding-left: 43%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    color: white;
+  }
